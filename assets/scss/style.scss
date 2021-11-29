@@ -1,0 +1,15 @@
+
+$color : #FEFEFE;
+$line : underline solid grey;
+
+.test {
+  background-color: $color;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.test2 {
+  $line : underline dashed blue;
+  text-decoration: $line;
+  border: 1px solid black;
+}

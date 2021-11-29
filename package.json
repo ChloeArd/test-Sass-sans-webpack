@@ -1,0 +1,14 @@
+{
+  "name": "test-sass-sans-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass:dev": "sass assets/scss:public/build/css",
+    "sass:prod": "sass --no-source-map assets/scss:public/build/css",
+    "sass:watch": "sass --watch assets/scss:public/build/css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
